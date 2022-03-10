@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&display=swap');
+
+body {
+  background: linear-gradient(199deg, #000 0%, #fff 100%);
+
+  font-family: 'Merriweather', serif, 'Lobster', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 47rem;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 35rem;
+  background: linear-gradient(199deg, #000 0%, #fff 100%);
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+textarea {
+  border: none;
+  display: block;
+  border-radius: 0.3rem;
+  width: -webkit-fill-available;
+  height: 2rem;
+  padding: 0.6rem;
+  margin: 0 0 0.8rem;
+    background: #2b2626;
+  color: #b1a6a6;
+  font-size: 1.3rem;
+  resize: none;
+}
+
+textarea:focus{
+  outline: none;
+
+}
+
+.tag {
+  padding: 0.3rem;
+border-bottom-style: groove;
+display: inline-block;
+margin: 0.5rem;
+
+}
+
+.highlight {
+  background: #302d30;
+}
